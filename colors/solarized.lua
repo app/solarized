@@ -1,7 +1,7 @@
 local solarized_normal = require('solarized.solarized-normal.highlights')
 local darkColors = {
 	none = {'none', 'none'},
-	base02  = {'#073642',23},
+	base02  = {'#2a2e3a',7}, -- current/cursor line bg color
 	red     = {'#dc322f',203},
 	green   = {'#859900',142},
 	yellow  = {'#b58900',178},
@@ -9,7 +9,7 @@ local darkColors = {
 	magenta = {'#d33682',169},
 	cyan    = {'#2aa198',37},
 	base2   = {'#eee8d5',230},
-	base03  = {'#002b36',23},
+	base03  = {'#232731',7}, -- bg color
 	back    = {'#002b36',23},
 	orange  = {'#cb4b16',166},
 	base01  = {'#586e75',102},
